@@ -1,4 +1,5 @@
 """The ioc_scan library."""
+
 # Standard Python Libraries
 from typing import List
 

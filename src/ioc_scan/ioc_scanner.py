@@ -122,7 +122,7 @@ def ioc_search(blob=None, root="/"):
     # store an array of ioc hits
     ioc_list = []
     # keep a tally of the hits
-    tallies = defaultdict(lambda: 0)
+    tallies = defaultdict(int)
     # walk the filesystem starting at root
     for rootdir, subdirs, files in os.walk(root):
         # find -xdev equivalent
